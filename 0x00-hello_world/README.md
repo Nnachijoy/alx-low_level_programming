@@ -1,1 +1,1 @@
-0x00 hello_orld
+script that compiles a C but does not link.
