@@ -2,15 +2,15 @@
 
 /**
  * main - prints alpha in lower case
- * Return: Always 0 (success)
- */
+ * Return:  0 if no error, non zero if error.
+ **/
 int main(void)
 {
-	char lc;
+	char i;
 
-	for (lc = "a"; lc <= 'z'; lc++)
+	for (i = "a"; i <= 'z'; i++)
 	{
-		putchar(lc);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
